@@ -10,7 +10,7 @@ import {
   Lightbulb,
   Target
 } from 'lucide-react';
-import type { MatchResult } from '../App';
+import type { MatchResult } from '../services/geminiService';
 
 interface MatchResultsProps {
   result: MatchResult;
